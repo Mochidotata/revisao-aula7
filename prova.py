@@ -1,6 +1,7 @@
 minhas_notas = []
 notas = 0
 continua = 's'
+n = 0
 
 while continua == 's':
     notas = float(input('Digite a nota do aluno: '))
@@ -13,6 +14,7 @@ def situacao_aluno(minhas_notas):
     else:
         return 'Reprovado!'
     
-  
 result = situacao_aluno
-print(f'Situação do aluno{result}')
+  
+for notas in range(0,n):
+    print(result)
